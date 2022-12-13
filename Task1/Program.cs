@@ -22,8 +22,7 @@ int ReleaseArray(int[] array)
 
 
 Console.Clear();
-// Console.Write("Введите кол-во элементов массива: ");
-// int n = Convert.ToInt32(Console.ReadLine());
+
 Console.WriteLine("Введите количество элементов массива:  ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[] arr = new int[n];
