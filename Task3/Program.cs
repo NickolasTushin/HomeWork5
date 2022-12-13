@@ -20,14 +20,14 @@ int max = 0;
 for (int i = 0; i < array.Length; i++)
 {
     for (int j = 0; j < array.Length; j++)
-            {
-                if (array[j] > max)
-                {
-                    // найден больший элемент
-                    max = array[j];
-                }
+    {
+        if (array[j] > max)
+    {
+        // найден больший элемент
+        max = array[j];
+    }
                 
-            }
+}
     if (min > array[i])
     // найден меньший элемент
     min = array[i]; 
@@ -36,7 +36,7 @@ for (int i = 0; i < array.Length; i++)
  Console.WriteLine($"Минимальный элемент: {min}");
 
  Console.WriteLine($"Максимальный элемент: {max}");
- 
+
  Console.WriteLine($"Разница между элементами = {max - min}");
 }
 InputArray(array);
